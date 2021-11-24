@@ -1,0 +1,11 @@
+.accountabout{
+    padding-top: 30vh;
+    text-align: center;
+    color: aliceblue;
+}
+
+.accountabout img{
+    width: 50%;
+    height: 50%;
+    max-width: 100%;
+}

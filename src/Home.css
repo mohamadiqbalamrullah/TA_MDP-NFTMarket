@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  .parenthome {
+    width: 100%;
+    height: 41rem;
+    background-color:#000;
+    grid-row: 12px;
+    display:grid;
+    place-items:center;
+  }
+
+  .preview{
+    color: aliceblue;
+    text-align: center;
+  }
+  .nfthome {
+    width: fit-content;
+    height: fit-content;
+    object-fit:cover;
+    ;
+    -webkit-box-reflect:below 2px linear-gradient(transparent, transparent, #0004);
+    
+    transform-origin:center;
+    transform:perspective(800px) rotateY(25deg);
+    transition:0.5s;
+  }
+  .container {
+    max-width:600px;
+    max-height:350px;
+    display:inline-flexbox;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    
+  }
+  .container:hover .nfthome {
+    opacity:0.3;
+  }
+  .container .nfthome:hover {
+    transform:perspective(800px)       rotateY(0deg);
+    opacity:1;
+  }

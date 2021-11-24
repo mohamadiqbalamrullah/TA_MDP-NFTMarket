@@ -1,0 +1,18 @@
+Container {
+    max-width: 100%;
+    justify-items: auto;
+    color: aliceblue;
+}
+
+Container img{
+    align-items: center;
+    max-width: 100%;
+}
+
+Container col{
+    max-width: 200px;
+}
+
+h1 h4{
+    color: aliceblue;
+}

@@ -1,0 +1,62 @@
+/* * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: inline-start;
+    display: inline-flex;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .row {
+      padding: 20px;
+      min-width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .card_description{
+    display: flex;
+      text-align: center;
+  }
+  
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    /* padding: 10px; */
+    text-align: center;
+    background-color: #f1f1f1;
+    max-height: fit-content;
+  }
+
+  .card img{
+    width: 210px;
+    height: 210px;
+  }
+  
+  .card p{
+      max-width: fit-content;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+   
